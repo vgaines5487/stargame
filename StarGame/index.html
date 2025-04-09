@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Tile Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Enhanced Tile Picker</h1>
+        <p class="instructions">Find the hidden STAR.</p>
+        
+        <div class="game-info">
+            <div class="attempts">Attempts left: <span id="attempts">3</span></div>
+            <div class="stats">
+                <span>Wins: <span id="wins">0</span></span>
+                <span>Losses: <span id="losses">0</span></span>
+            </div>
+        </div>
+        
+        <div class="tiles-container" id="tiles"></div>
+        
+        <div class="message" id="message"></div>
+        
+        <div class="game-controls">
+            <button id="reset-btn">New Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
